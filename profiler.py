@@ -11,7 +11,7 @@ from  PIL import Image
 st.set_page_config(layout='wide') #Choose wide mode as the default setting
 
 #Add a logo (optional) in the sidebar
-logo = Image.open(r"/Users/christianliisberg/python/streamlit/Intellix-logo.jpg")
+logo = Image.open(r"Intellix-logo.jpg")
 st.sidebar.image(logo,  width=120)
 st.sidebar.subheader('Intellix service applet')
 
